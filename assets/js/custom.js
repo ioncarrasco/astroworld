@@ -1,6 +1,6 @@
 let mapOptions = {
     center: [39.464796423540136, -0.36799903816171786],
-    zomm: 10
+    zoom: 10
 }
 
 let map = new L.map('map', mapOptions)
