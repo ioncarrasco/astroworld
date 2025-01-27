@@ -11,4 +11,4 @@ map.addLayer(layer)
 
 let marker = new L.marker([39.464796423540136, -0.36799903816171786])
 
-marker.addTo(map).bindPopup("<b>AstroWorld</b> @SanVicentFerrer").openPopup();
+marker.addTo(map).bindPopup("<b><strong>AstroWorld</strong></b> @ 4D-IES SanVicentFerrer").openPopup();
