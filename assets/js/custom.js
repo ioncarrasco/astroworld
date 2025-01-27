@@ -3,9 +3,9 @@ let mapOptions = {
     zomm: 10
 }
 
-let map = new LargestContentfulPaint.map('map', mapOptions)
+let map = new L.map('map', mapOptions)
 
-let layer = new L.tileLayer('http://{s}.title.openstreetmap.org/{z}/{x}/{y}.png')
+let layer = new L.TileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png')
 
 map.addLayer(layer)
 
