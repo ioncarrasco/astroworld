@@ -51,17 +51,6 @@ body, ul, li, p, a, label, input, div {
 
 /* Carousel Travis */
 #ionwebstore-carousel { background: #efefef !important;}
-/* Brand */
-.brand-img {
-  filter: grayscale(100%);
-  opacity: 0.5;
-  transition: .5s;
-}
-.brand-img:hover {
-  filter: grayscale(0%);
-  opacity: 1;
-}
-/* Carousel Travis */
 #ionwebstore-carousel .carousel-indicators li {
   margin-top: -50px;
   background-color: #59ab6e;
@@ -71,7 +60,17 @@ body, ul, li, p, a, label, input, div {
   color: #59ab6e !important;
   font-size: 2.8em !important;
 }
-/* Carousel Brand */
+/* Endorsers */
+.brand-img {
+  filter: grayscale(100%);
+  opacity: 0.5;
+  transition: .5s;
+}
+.brand-img:hover {
+  filter: grayscale(0%);
+  opacity: 1;
+}
+/* Endorsers Carousel */
 .ionwebstore-carousel .h1 {
   font-size: .5em !important;
   color: #000 !important;
