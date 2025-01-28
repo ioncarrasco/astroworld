@@ -1,16 +1,14 @@
 /*
-
-Oscar Carrasco
-
+Ion webStore Javascript
 */
 
 'use strict';
 $(document).ready(function() {
 
     // Accordion
-    var all_panels = $('.templatemo-accordion > li > ul').hide();
+    var all_panels = $('.ionwebstore-accordion > li > ul').hide();
 
-    $('.templatemo-accordion > li > a').click(function() {
+    $('.ionwebstore-accordion > li > a').click(function() {
         console.log('Hello world!');
         var target =  $(this).next();
         if(!target.hasClass('active')){
