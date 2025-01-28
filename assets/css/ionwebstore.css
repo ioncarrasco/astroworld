@@ -51,11 +51,6 @@ body, ul, li, p, a, label, input, div {
 
 /* Carousel Travis */
 #ionwebstore-carousel { background: #efefef !important;}
-/* Accordion */
-.ionwebstore-accordion a { color: #000;}
-.ionwebstore-accordion a:hover { color: #333d4a;}
-/* Shop */
-.shop-top-menu a:hover { color: #69bb7e !important;}
 /* Brand */
 .brand-img {
   filter: grayscale(100%);
